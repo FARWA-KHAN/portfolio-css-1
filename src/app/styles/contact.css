@@ -1,0 +1,44 @@
+.contact-container {
+    padding-top: 8rem;
+    max-width: 1280px;
+    margin: 15px;
+}
+
+.contact-grid {
+    display: grid;
+    gap: 2.5rem;
+}
+
+@media (min-width: 768) {
+    .contact-grid {
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
+
+.contact-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-text {
+    color: #9eaec4;
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.contact-space {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
